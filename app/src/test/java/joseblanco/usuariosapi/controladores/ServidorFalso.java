@@ -96,7 +96,7 @@ class ServidorFalso implements AutoCloseable {
                 salida.write(bytes);
                 salida.flush();
             } catch (IOException e) {
-                // el servidor se cierra al terminar la prueba
+                return;
             }
         }
     }
