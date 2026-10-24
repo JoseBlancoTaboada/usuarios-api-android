@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">UsuariosApi</string>
+    <string name="url_api" translatable="false">https://users-management-microservice.onrender.com</string>
+
+    <string name="titulo_login">INICIAR SESIÓN</string>
+    <string name="lbl_email">EMAIL:</string>
+    <string name="lbl_clave">PASSWORD:</string>
+    <string name="boton_entrar">Entrar</string>
+
+    <string name="titulo_listado">Usuarios</string>
+    <string name="sesion_de">Sesión: %1$s</string>
+    <string name="boton_agregar">Agregar usuario</string>
+    <string name="boton_cerrar_sesion">Cerrar sesión</string>
+    <string name="lista_vacia">No hay usuarios</string>
+    <string name="formato_item">%1$s\n%2$s · %3$s · %4$s</string>
+
+    <string name="titulo_nuevo">Nuevo usuario</string>
+    <string name="titulo_editar">Editar usuario</string>
+    <string name="lbl_nombre">Nombre:</string>
+    <string name="lbl_email_usuario">Email:</string>
+    <string name="lbl_clave_usuario">Contraseña:</string>
+    <string name="pista_clave_editar">Déjala vacía para no cambiarla</string>
+    <string name="lbl_rol">Rol:</string>
+    <string name="lbl_estado">Estado:</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="boton_eliminar">Eliminar</string>
+    <string name="boton_cancelar">Cancelar</string>
+
+    <string name="confirmar_eliminar_mensaje">¿Eliminar a %1$s? Esta acción no se puede deshacer.</string>
+    <string name="no_eliminarse">No puedes eliminar tu propio usuario</string>
+
+    <string name="error_falta_email">Debe ingresar el email</string>
+    <string name="error_email_invalido">El email no es válido</string>
+    <string name="error_falta_clave">Debe ingresar el password</string>
+    <string name="error_clave_corta">La contraseña debe tener al menos 8 caracteres</string>
+    <string name="error_nombre_corto">El nombre debe tener al menos 3 caracteres</string>
+    <string name="error_inesperado">Ocurrió un error inesperado</string>
+    <string name="sesion_vencida">La sesión venció. Inicia sesión de nuevo.</string>
+    <string name="aviso_creado">Usuario creado</string>
+    <string name="aviso_actualizado">Usuario actualizado</string>
+    <string name="aviso_eliminado">Usuario eliminado</string>
+
+    <string-array name="roles" translatable="false">
+        <item>ADMIN</item>
+        <item>MEMBER</item>
+        <item>REVIEWER</item>
+    </string-array>
+    <string-array name="estados" translatable="false">
+        <item>ACTIVE</item>
+        <item>INACTIVE</item>
+        <item>PENDING</item>
+        <item>BLOCKED</item>
+    </string-array>
+</resources>
